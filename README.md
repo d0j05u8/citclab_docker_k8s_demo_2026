@@ -16,12 +16,12 @@ Upon initial launch, services will be made avilable at **wiki.citclab.edu**.
 
 ## Architecture & Dependance Hierarchy:
 This is a generalized dependance hierarchy of how the services and systems are layered. It should be noted that this hierarchy does not accurately demonstrate the projects networking dynamics.
-* Hardware: Physical infrastructure (networking, 3x servers, central storage)
-* Logical Layer 1: ProxMoxVE 9.1.4, CEPH 19.2.3
-* Logical Layer 2: Ubuntu Server 24.04.3
-* Logical Layer 3: Docker Engine 29.1.5
-* Logical Layer 4 (service layer): Kiwix, Nginx
-* Logical Layer 5 (orchestration layer): Kubernetes 1.35
+* **Hardware:** Physical infrastructure (networking, 3x servers, central storage)
+* **Logical Layer 1:** ProxMoxVE 9.1.4, CEPH 19.2.3
+* **Logical Layer 2:** Ubuntu Server 24.04.3
+* **Logical Layer 3:** Docker Engine 29.1.5
+* **Logical Layer 4 (service layer):** Kiwix, Nginx
+* **Logical Layer 5 (orchestration layer):** Kubernetes 1.35
 
 ## Networking:
 
