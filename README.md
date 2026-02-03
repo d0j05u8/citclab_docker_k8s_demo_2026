@@ -29,15 +29,23 @@ This is a generalized dependance hierarchy of how the services and systems are l
 
 # Installation & Deployment
 
-## 1. Provisioning:
+## **1. Provisioning:**
 **To Do:** Configurations and resource allocations for the worker node VMs.
-* Naming
-* Memory Allocation
-* CPU Allocation
-* Storage Pool & Allocation
-* Network Adapter & Relevant Topology
 
-## 2. Platform Preparation:
+### 1.1 Naming: 
+VM's hosted within the CITPM cluster use a unique naming scheme in addition to their designated hostname. 
+> - **Scheme:** N(n)-(nnn) 
+> - **Explanation:** "N(n)" denotes which node hosts the VM (i.e. 1, 2, or 3), while "(nnn)" denotes the VM ID allocated during the VM's creation.
+> - **Example:** N1-113 would describe a VM that is hosted on node_1, and has the VM ID of 113.
+
+VM's are identified by name and are then associated with their corresponding IP address and hostname. Becasue VM ID's are persistant cluster-wide, this helps maintain clarity in address assignment and endpoint location even in the event of node failure. 
+
+### 1.2 Memory Allocation:
+### 1.3 CPU Allocation:
+### 1.4 Storage Pool & Allocation:
+### 1.5 Network Adapter & Relevant Topology:
+
+## **2. Platform Preparation:**
 ### 2.1 Worker Prep:
 **To Do:** Preparing the worker nodes for use. This involves:
 * Docker Engine Install
@@ -52,13 +60,13 @@ This is a generalized dependance hierarchy of how the services and systems are l
 * ???
 **Note:** This will be dependant upon how nginx is implemented and is pending further research.
 
-## 3. Kubernetes Deployment & Configuration:
+## **3. Kubernetes Deployment & Configuration:**
 * ???
 
-## 4. DNS Configuration:
+## **4. DNS Configuration:**
 * ???
 
-## 5. Certificate Authority Configuration:
+## **5. Certificate Authority Configuration:**
 * ???
     
     NFS --- Storage[(TrueNAS / Storage)]
