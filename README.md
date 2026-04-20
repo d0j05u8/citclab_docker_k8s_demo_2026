@@ -1,7 +1,11 @@
 # citclab_docker_k8s_demo_2026
 
 ## Overview:
-This repo documents the setup of a locally hosted wikipedia server for use within a private school lab network. This project has two main goals. The first goal is to gain hands on experience with the Docker and Kubernetes platforms while also further developing my familiarity with container environments. The second aim for this peoject is to use the demo as an opportunity to more accurately understand the practical implications of using a docker-k8s stack for service delivery over a private school network, and to research the practicality and feasbility of migrating an existing SIEM platform **(Wazuh)** from a **fully virtualized (VM)** implementation to **containerized (CT)** implementation.
+This repo documents the setup of a locally hosted Wikipedia server for use within a private school lab network. This project has two main goals. 
+
+The first goal is to gain experience with the Docker and Kubernetes platforms while also further developing my familiarity with container environments. 
+
+The second goal for this project is to use the demo as an opportunity to more accurately understand the practical implications of using a docker-k8s stack for service delivery over a private school network, and to research the practicality and feasibility of migrating an existing SIEM platform **(Wazuh)** from a fully virtualized **(VM)** implementation to containerized **(CT)** implementation.
 
 More information regaurding the Wazuh migration can be foud [here]. | **(Need to update after Wazuh repo is created)**
 
